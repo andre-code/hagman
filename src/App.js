@@ -8,7 +8,7 @@ import Notification from './components/Notifcation';
 import PopUp from './components/PopUp';
 import { showNotification as show } from './helpers/helpers';
 
-const words = ['application', 'programming', 'interface', 'wizard'];
+const words = ['apples', 'asparagus', 'artichoke', 'avocado', 'celery', 'grapes', 'grapefruit', 'guava', 'garlic', 'ginger'];
 let selectedWord = words[Math.floor(Math.random() * words.length)];
 
 function App() {
